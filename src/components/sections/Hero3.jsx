@@ -64,9 +64,9 @@ const Hero3 = () => {
       ></div>
 
       <div className="container relative mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-black-900 mb-12 text-center drop-shadow-md">
+        <h5 className="text-xl md:text-3xl font-extrabold text-black-900 mb-12 text-center drop-shadow-md">
           Today's top <span className="font-light italic text-black">Picks</span> for you
-        </h2>
+        </h5>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {offers.map((offer) => (
