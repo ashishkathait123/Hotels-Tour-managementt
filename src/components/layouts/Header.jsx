@@ -11,7 +11,7 @@ export const Header = () => {
     { name: 'Destinations', submenu: true },
     { name: 'Deals', submenu: true },
     { name: 'Experiences', submenu: false },
-    { name: 'Luxury Escapes+', submenu: false },
+    { name: 'Luxury Tours+', submenu: false },
     { name: 'Travel Styles', submenu: true },
   ]
 
