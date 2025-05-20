@@ -103,7 +103,7 @@ export const Footer = () => {
             </a>
           </div>
           <p className={`${textStyle('body.sm')}`}>
-            © {new Date().getFullYear()} Luxury Escapes. All rights reserved.
+            © {new Date().getFullYear()} GrandeurNet. All rights reserved.
           </p>
         </div>
       </div>
