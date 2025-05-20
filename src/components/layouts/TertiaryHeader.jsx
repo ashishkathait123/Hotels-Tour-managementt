@@ -47,11 +47,11 @@ export const TertiaryHeader = () => {
             <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 hidden group-hover:block">
               <a href="tel:+918037835334" className={`${textStyle('body.base', 'block px-4 py-2 text-neutral-1 hover:bg-neutral-6')}`}>
                 <div>Local Sales & Support</div>
-                <div className={`${textStyle('body.sm', 'text-neutral-3')}`}>+91 803 783 5334</div>
+                <div className={`${textStyle('body.sm', 'text-neutral-3')}`}>+91 9149050623</div>
               </a>
               <a href="tel:+61370323381" className={`${textStyle('body.base', 'block px-4 py-2 text-neutral-1 hover:bg-neutral-6')}`}>
                 <div>International Support</div>
-                <div className={`${textStyle('body.sm', 'text-neutral-3')}`}>+61 3 7032 3381</div>
+                <div className={`${textStyle('body.sm', 'text-neutral-3')}`}>+91 9149050623</div>
               </a>
             </div>
           </div>
