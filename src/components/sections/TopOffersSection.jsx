@@ -21,8 +21,8 @@ export const TopOffersSection = () => {
     {
       id: 5,
       title: "Cultural Heritage Tour",
-      imageUrl: "/assets/images/deals/heritage.jpg",
-      location: "Japan",
+imageUrl:
+        "https://images.luxuryescapes.com/fl_progressive,q_auto:eco,c_fill,g_auto,w_512,ar_3:2,dpr_2.0/pjostk2ndf0ohdykoedemg",      location: "Japan",
       rating: 4.6,
       ratingLabel: "Excellent",
       description: "Immerse yourself in traditions, temples, and cuisine.",
@@ -34,8 +34,8 @@ export const TopOffersSection = () => {
     {
       id: 6,
       title: "Tropical Island Cruise",
-      imageUrl: "/assets/images/deals/cruise.jpg",
-      location: "Caribbean",
+imageUrl:
+        "https://images.luxuryescapes.com/fl_progressive,q_auto:eco,c_fill,g_auto,w_512,ar_3:2,dpr_2.0/pjostk2ndf0ohdykoedemg",      location: "Caribbean",
       rating: 4.8,
       ratingLabel: "Superb",
       description: "Sail across turquoise waters with luxury onboard experiences.",
@@ -53,13 +53,13 @@ export const TopOffersSection = () => {
   }, []);
 
   return (
-    <section className="relative py-12 bg-[url('/assets/images/deals/topbg.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="relative py-12 bg-[url('/assets/images/deals/topbg.jpg')] bg-cover bg-center bg-no-repeat ">
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+      <div className="absolute inset-0 b"></div>
 
       <div className="container relative mx-auto px-4">
         <h2
-          className={`text-3xl text-white font-bold mb-6 transform transition-opacity duration-700 ${
+          className={`text-3xl text-black font-bold mb-6 transform transition-opacity duration-700 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-6"
           }`}
         >
@@ -68,7 +68,7 @@ export const TopOffersSection = () => {
 
         {/* Filter Tags */}
         <div
-          className={`flex flex-wrap gap-2 mb-8 text-white transition-opacity duration-700 delay-200 ${
+          className={`flex flex-wrap gap-2 mb-8 text-black transition-opacity duration-700 delay-200 ${
             mounted ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -104,7 +104,7 @@ export const TopOffersSection = () => {
                   loading="lazy"
                 />
                 <div className="absolute top-2 left-2">
-                  <span className="bg-yellow-500 text-white px-2 py-1 text-xs font-bold rounded">
+                  <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold rounded">
                     EXCLUSIVE
                   </span>
                 </div>
@@ -112,7 +112,7 @@ export const TopOffersSection = () => {
                   <button className="bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition-colors">
                     <svg
                       viewBox="0 0 24 24"
-                      className="w-4 h-4 text-white"
+                      className="w-4 h-4 text-black"
                       fill="none"
                     >
                       <path
@@ -128,27 +128,27 @@ export const TopOffersSection = () => {
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <p className="text-white text-sm">{offer.location}</p>
-                    <h3 className="text-lg text-white font-bold">{offer.title}</h3>
+                    <p className="text-balck text-sm">{offer.location}</p>
+                    <h3 className="text-lg text-black font-bold">{offer.title}</h3>
                   </div>
-                  <div className="flex items-center bg-yellow-600 text-white px-2 py-1 rounded text-xs">
+                  <div className="flex items-center bg-yellow-600 text-balck px-2 py-1 rounded text-xs">
                     <span className="mr-1">★</span>
                     {offer.rating} {offer.ratingLabel}
                   </div>
                 </div>
 
-                <p className="text-white font-bold mb-4 line-clamp-2">{offer.description}</p>
+                <p className="text-black font-bold mb-4 line-clamp-2">{offer.description}</p>
 
                 {/* Price Section */}
                 <div className="mt-6 pt-4 border-t border-gray-200 flex justify-between items-end">
                   <div>
-                    <p className="text-white text-sm">{offer.nights} nights from</p>
+                    <p className="text-balck text-sm">{offer.nights} nights from</p>
                     <p className="text-xl font-bold">
                       {offer.price}
                       <span className="text-gray-500 text-sm font-normal">/suite</span>
                     </p>
                     <div className="flex items-center gap-2">
-                      <p className="text-white text-sm font-bold">Valued up to {offer.originalPrice}</p>
+                      <p className="text-balck text-sm font-bold">Valued up to {offer.originalPrice}</p>
                       <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-bold">
                         -{offer.discount}%
                       </span>

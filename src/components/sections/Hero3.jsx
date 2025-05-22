@@ -20,7 +20,7 @@ const Hero3 = () => {
     {
       id: 5,
       title: "Cultural Heritage Tour",
-      imageUrl: "/assets/images/deals/heritage.jpg",
+      imageUrl:"https://images.luxuryescapes.com/fl_progressive,q_auto:eco,c_fill,g_auto,w_512,ar_3:2,dpr_2.0/pjostk2ndf0ohdykoedemg",
       location: "Japan",
       rating: 4.6,
       ratingLabel: "Excellent",
@@ -33,7 +33,7 @@ const Hero3 = () => {
     {
       id: 6,
       title: "Tropical Island Cruise",
-      imageUrl: "/assets/images/deals/cruise.jpg",
+      imageUrl:"https://images.luxuryescapes.com/fl_progressive,q_auto:eco,c_fill,g_auto,w_512,ar_3:2,dpr_2.0/pjostk2ndf0ohdykoedemg",
       location: "Caribbean",
       rating: 4.8,
       ratingLabel: "Superb",
@@ -53,9 +53,12 @@ const Hero3 = () => {
 
   return (
     <section
-      className={`py-16 bg-transparent from-white to-blue-50 relative overflow-hidden ${
-        loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      } transition-all duration-700 ease-out`}
+      className={`py-16 relative overflow-hidden ${
+    loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+  } transition-all duration-700 ease-out`}
+  style={{
+    backgroundImage: "linear-gradient(134deg, #4c7e7e 2%, #0000 95%)",
+  }}
     >
       {/* Optional subtle background pattern or shapes */}
       <div
@@ -136,7 +139,7 @@ const Hero3 = () => {
                     </div>
                   </div>
                   <button
-                    className="bg-transparent text-blak px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-transparent hover:border-yellow-600"
+                    className="bg-yellow-500 text-blak px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-yellow-600"
                     aria-label={`View offer for ${offer.title}`}
                   >
                     View offer

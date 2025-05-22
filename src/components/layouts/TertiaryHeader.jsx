@@ -2,7 +2,7 @@
 import { textStyle } from '../../config/typography'
 export const TertiaryHeader = () => {
   return (
-    <div className="bg-gray-100  border-b border-neutral-6">
+    <div className="bg-[#e1e3e4]  border-b border-neutral-6">
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Left side - Rating info */}
         <div className="flex items-center space-x-2">

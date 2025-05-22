@@ -50,9 +50,10 @@ const Hero2 = () => {
 
   return (
     <section className="py-8 px-4 max-w-7xl mx-auto">
+
       {/* Heading and View Map Button */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
-        <h2 className="text-3xl font-bold">
+        <h2 className="text-3xl text-black font-bold">
           Immerse yourself in trending <i>destinations</i>
         </h2>
         <a
@@ -139,7 +140,7 @@ const Hero2 = () => {
                 width={180}
                 height={180}
               />
-              <div className="mt-2 text-center font-semibold text-lg text-gray-900">
+              <div className="mt-2 text-center font-semibold text-lg text-gray-700">
                 {name}
               </div>
             </a>

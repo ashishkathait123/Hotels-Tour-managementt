@@ -21,7 +21,12 @@ export const Footer = () => {
   }
 
   return (
-    <footer className="bg-gray-200 text-black">
+<footer
+  className="text-white"
+  style={{
+    backgroundImage: 'linear-gradient(183deg, #4c7e7e 0%, #000000 85%)',
+  }}
+>
       <div className="container mx-auto px-4 py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

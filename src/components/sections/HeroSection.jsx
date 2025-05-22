@@ -30,7 +30,7 @@ const benefits = [
 
 const HeroSection = () => {
   return (
-    <div className="bg-white lg:py-8">
+    <div className="bg-[#beeded] lg:py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-4">

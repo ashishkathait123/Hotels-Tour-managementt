@@ -15,13 +15,13 @@ const Nav = () => {
   ];
 
   return (
-    <div className="flex items-center justify-between px-4 py-3 bg-white shadow-sm">
+    <div className="flex items-center justify-between px-4 py-3 bg-[#beeded] shadow-sm">
       <div className="flex space-x-0 overflow-x-auto">
         {navItems.map((item, index) => (
           <a
             key={index}
             href={item.href}
-            className="px-4 py-2 text-sm font-medium text-gray-700 whitespace-nowrap hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+            className="px-4 py-2 text-sm font-medium text-gray-700 whitespace-nowrap hover:text-yellow-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
           >
             {item.name}
           </a>
