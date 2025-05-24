@@ -21,7 +21,7 @@ const Nav = () => {
           <a
             key={index}
             href={item.href}
-            className="px-4 py-2 text-sm font-medium text-gray-700 whitespace-nowrap hover:text-yellow-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+            className="px-4 py-2 text-l font-medium text-gray-700 whitespace-nowrap hover:text-yellow-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
           >
             {item.name}
           </a>

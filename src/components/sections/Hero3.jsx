@@ -76,7 +76,7 @@ const Hero3 = () => {
             <a
               key={offer.id}
               href="#"
-              className="group block bg-transparent   overflow-hidden transform transition-transform duration-300 hover:scale-[1.03] hover:shadow-ml"
+              className="group block bg-transparent   overflow-hidden transform transition-transform duration-300 hover:scale-[1.03] hover:shadow-ml rounded-xl"
               aria-label={`View offer: ${offer.title}`}
             >
               {/* Image Section */}
@@ -139,10 +139,10 @@ const Hero3 = () => {
                     </div>
                   </div>
                   <button
-                    className="bg-yellow-500 text-blak px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-yellow-600"
+                    className="bg-gray-800 text-white px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-yellow-600"
                     aria-label={`View offer for ${offer.title}`}
                   >
-                    View offer
+                    More
                   </button>
                 </div>
               </div>

@@ -50,7 +50,6 @@ const Hero2 = () => {
 
   return (
     <section className="py-8 px-4 max-w-7xl mx-auto">
-
       {/* Heading and View Map Button */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
         <h2 className="text-3xl text-black font-bold">
@@ -111,12 +110,7 @@ const Hero2 = () => {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
@@ -124,9 +118,9 @@ const Hero2 = () => {
           ref={carouselRef}
           className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hide px-10"
         >
-          {destinations.map(({ name, img, link }) => (
+          {destinations.map(({ name, img, link }, index) => (
             <a
-              key={name}
+              key={`${name}-${index}`}
               href={link}
               target="_blank"
               rel="noopener noreferrer"
@@ -159,12 +153,7 @@ const Hero2 = () => {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>
       </div>

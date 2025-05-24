@@ -16,10 +16,8 @@ export const Header = () => {
 
   return (
     <header
-      className="text-white sticky top-0 z-50"
-      style={{
-        backgroundImage: 'linear-gradient(170deg, #4c7e7e 0%, #0000 95%)',
-      }}
+      className="text-white sticky top-0 z-50 bg-[#a4ececb5] shadow-md backdrop-blur-md border-b border-neutral-200 transition-all duration-300"
+     
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
